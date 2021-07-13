@@ -1,8 +1,12 @@
-import Number from "test-vendor-2";
+import React from 'react'
+import Box from "test-vendor-2";
 
 function App() {
-  console.log(Number);
-  return <div>{Number()}</div>;
+  return (
+    <div>
+      {<Box/>}
+    </div>
+  );
 }
 
 export default App;
