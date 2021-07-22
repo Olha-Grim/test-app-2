@@ -1,5 +1,5 @@
 import React from "react";
-import { Divider } from "test-vendor-2";
+// import { Divider } from "test-vendor-2";
 import AlertExample from "./Components/Alert";
 import AvatarExample from "./Components/Avatar";
 import ButtonExample from "./Components/Button";
