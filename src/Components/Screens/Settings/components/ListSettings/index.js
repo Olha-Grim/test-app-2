@@ -1,13 +1,9 @@
 import React from "react";
 import { CloseOutlined, CheckOutlined, RightOutlined } from "@ant-design/icons";
-import ListItemMeta from "../../../../List/ListItemMeta";
-import ListItem from "../../../../List/ListItem";
-import { Avatar } from "../../../../Avatar";
-import Switch from "../../../../Switch";
+import { ListItemMeta, ListItem, Avatar, Switch } from "test-vendor-2";
 import { AntdList, SwitchWrapper } from "../../styles";
 
 const ListSettings = ({ sortedData }) => {
-    
   return (
     <>
       <AntdList

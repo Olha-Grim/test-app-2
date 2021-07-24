@@ -4,12 +4,6 @@ import useQuery from "../hooks/useQuery";
 import { user } from "../data";
 import AutoCompleteBox from "../AutoCompleteBox";
 
-/**
- * @param {Array} user
- * @return {JSX.Element}
- * @constructor
- */
-
 const Apps = () => {
   const { apps } = user;
   const { handleChange, sortedData } = useQuery(apps);

@@ -24,12 +24,6 @@ import {
   UploadOutlined,
 } from "@ant-design/icons";
 
-/**
- *
- * @return {JSX.Element}
- * @constructor
- */
-
 const AccountChange = () => {
   const { name, email, image, short, organization, organizations, teams } =
     user;
@@ -49,7 +43,7 @@ const AccountChange = () => {
             {short}
           </AntdAvatar>
         </AvatarWrapper>
-        
+
         <UserName>{name}</UserName>
         <UserEmail>{email}</UserEmail>
         <ButtonSwitchWrapper>

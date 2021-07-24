@@ -11,6 +11,9 @@ const CollapseExample = () => {
     Known for its loyalty and faithfulness,
     it can be found as a welcome guest in many households across the world.
   `;
+  console.log(typeof CollapsePanel)
+
+  // const { Panel } = Collapse;
   return (
     <div>
       <Collapse defaultActiveKey={["1"]} onChange={Callback}>

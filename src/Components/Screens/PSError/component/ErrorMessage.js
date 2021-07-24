@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 import ReactJsonSyntaxHighlighter from "react-json-syntax-highlighter";
-import Button from "../../../Button";
+import { Button } from "test-vendor-2";
 import {
   ExclamationCircleOutlined,
   MailOutlined,
@@ -93,11 +93,11 @@ const ErrorMessage = ({ errors, onDismiss, onReport }) => {
                 )}
               </ErrorListCollapse>
             </WrapperErrorList>
-            <div style={{marginTop: '20px', display: 'flex',}}>
+            <div style={{ marginTop: "20px", display: "flex" }}>
               <Button
                 onReport={onReport}
                 danger
-                style={{marginRight: '20px'}}
+                style={{ marginRight: "20px" }}
                 size="large"
                 icon={<MailOutlined />}
               >

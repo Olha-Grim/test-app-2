@@ -1,11 +1,5 @@
 import React from 'react'
 
-/**
- *
- * @return {JSX.Element}
- * @constructor
- */
-
 const PreaLogo = (props) => {
     return (
       <svg

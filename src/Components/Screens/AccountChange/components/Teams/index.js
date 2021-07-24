@@ -1,9 +1,6 @@
 import React from "react";
 import { UserOutlined } from "@ant-design/icons";
-import Avatar from "../../../../Avatar/Avatar";
-import Divider from "../../../../Divider";
-import { AvatarGroup } from "../../../../Avatar";
-import Tooltip from "../../../../Tooltip";
+import { Avatar, Divider, AvatarGroup , Tooltip} from "test-vendor-2";
 import { AntdUserOutlinedAvatar, AvatarGroupWrapper } from "../../styles";
 
 const PreaTeams = ({ teams }) => {

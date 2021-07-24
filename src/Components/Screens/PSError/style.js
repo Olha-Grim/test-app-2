@@ -1,7 +1,6 @@
 import styled from "styled-components";
-import { Card } from "../../Card";
-import Button from "../../Button";
-import { Collapse } from "antd";
+import { Card, Button, Collapse } from "test-vendor-2";
+// import { Collapse } from "antd";
 
 export const AlertError = styled(Card)`
   display: flex;

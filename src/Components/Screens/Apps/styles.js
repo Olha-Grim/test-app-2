@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Text } from "../../Typography";
-import { Row } from "../../Grid";
+import { Text, Row } from "test-vendor-2";
+
 
 
 export const AntdRow = styled(Row)`

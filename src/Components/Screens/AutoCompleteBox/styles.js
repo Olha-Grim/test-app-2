@@ -1,9 +1,5 @@
 import styled from "styled-components";
-import { Input } from "../../Input";
-import Divider from "../../Divider";
-import List from "../../List/List";
-import { Card } from "../../Card";
-
+import { Input, Divider, List, Card } from "test-vendor-2";
 
 export const AntdCard = styled(Card)`
   display: flex;

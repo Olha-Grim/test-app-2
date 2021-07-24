@@ -1,8 +1,7 @@
 
 import styled from "styled-components";
-import { Avatar } from "../../Avatar";
-import { Card } from "../../Card";
-import Button from "../../Button";
+import { Avatar, Card, Button } from "test-vendor-2";
+
 
 export const AntdCard = styled(Card)`
   display: flex;

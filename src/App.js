@@ -58,6 +58,10 @@ import ProgressExample from "./Components/Progress/example";
 import ResultExample from "./Components/Result/example";
 import SkeletonExample from "./Components/Skeleton/example";
 import SpinExample from "./Components/Spin/example";
+import Apps from "./Components/Screens/Apps";
+import Settings from "./Components/Screens/Settings";
+import AccountChange from "./Components/Screens/AccountChange";
+// import PSError from "./Components/Screens/PSError";
 
 
 function App() {
@@ -84,11 +88,11 @@ function App() {
         <h2>ErrorMessage</h2>
         {/* <PSError /> */}
         <h2>Settings</h2>
-        {/* <Settings /> */}
+        <Settings/>
         <h2>Apps</h2>
-        {/* <Apps /> */}
+        <Apps />
         <h2>AccountChange!!!</h2>
-        {/* <AccountChange /> */}
+        <AccountChange />
         <h2>AutoComplete!!!</h2>
         <AutoCompleteExample />
         <h2>Button</h2>
@@ -106,7 +110,6 @@ function App() {
         <h2>Layout</h2>
         <LayoutExample />
         <h2>Space</h2>
-        //!
         <SpaceExample />
         <h2>Affix</h2>
         <AffixExample />

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import List from "../../List/List";
+import { List } from "test-vendor-2";
 
 export const AntdList = styled(List)`
   height: 230px;

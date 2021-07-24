@@ -1,9 +1,6 @@
 import React from "react";
 import { UserOutlined, SettingOutlined } from "@ant-design/icons";
-import { AvatarGroup } from "../../../../Avatar";
-import Avatar from "../../../../Avatar/Avatar";
-import Divider from "../../../../Divider";
-import Tooltip from "../../../../Tooltip";
+import { AvatarGroup, Divider, Tooltip } from "test-vendor-2";
 import {
   AvatarGroupWrapper,
   AntdAvatar,
@@ -13,7 +10,6 @@ import {
 } from "../../styles";
 
 const PreaOrganizations = ({ organizations, organization }) => {
-  // need to move the current organization to the first place in array
 
   const coincidence = organizations.filter(
     (elem) => elem.label === organization.label && elem

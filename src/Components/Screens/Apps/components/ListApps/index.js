@@ -1,7 +1,6 @@
 import React from "react";
 import { AntDesignOutlined } from "@ant-design/icons";
-import { Avatar } from "../../../../Avatar";
-import { Col } from "../../../../Grid";
+import { Avatar, Col } from "test-vendor-2";
 import { AntdRow, AntdText, AvatarWrapper } from "../../styles";
 
 const ListApps = ({ sortedData }) => {

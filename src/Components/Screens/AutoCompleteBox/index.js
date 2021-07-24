@@ -7,11 +7,6 @@ import {
   AntdInput,
 } from "./styles";
 
-/**
- * @param {JSX.Element} children
- * @return {JSX.Element}
- * @constructor
- */
 
 const AutoCompleteBox = ({ name, handleChange, children }) => {
   
