@@ -1,6 +1,5 @@
 import React from "react";
-import { Calendar } from "test-vendor-2";
-import { Badge } from "test-vendor-2";
+import { Calendar, Badge } from "test-vendor-2";
 
 const CalendarExample = () => {
   function getListData(value) {

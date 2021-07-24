@@ -1,5 +1,5 @@
 import React from "react";
-import Cascader from "./index";
+import { Cascader } from "test-vendor-2";
 
 const CascaderExample = () => {
   const options = [

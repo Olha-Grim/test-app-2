@@ -1,6 +1,5 @@
 import React from "react";
-import Collapse from "./Collapse";
-import CollapsePanel from "./CollapsePanel";
+import { Collapse, CollapsePanel } from "test-vendor-2";
 
 const CollapseExample = () => {
   const Callback = (key) => {

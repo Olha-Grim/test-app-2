@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from ".";
+import { Carousel } from "test-vendor-2";
 
 const CarouseExample = () => {
   const contentStyle = {
