@@ -1,39 +1,11 @@
 import React, { useState } from "react";
-import { Input, AutoComplete } from "antd";
+import { Input, AutoComplete } from "test-vendor-2";
 import { UserOutlined } from "@ant-design/icons";
 import { Highlight } from "./Highlight";
 import data from "./bd";
 import styled from "styled-components";
 
-/**
- *
- * @param {boolean} allowClear
- * @param {boolean} autoFocus
- * @param {boolean} backfill
- * @param {HTMLInputElement | HTMLTextAreaElement | React.ReactElement<InputProps>	} children (for customize input element)
- * @param {React.ReactElement<OptionProps> | Array<React.ReactElement<OptionProps>>	} children (for dataSource)
- * @param {boolean} defaultActiveFirstOption
- * @param {boolean} defaultOpen
- * @param {string} defaultValue
- * @param {boolean} disabled
- * @param {string} dropdownClassName
- * @param {boolean | number	} dropdownMatchSelectWidth
- * @param {boolean | function(inputValue, option)	} filterOption
- * @param {string} notFoundContent
- * @param {boolean}  open
- * @param {{ label, value }[]} options
- * @param {string} placeholder
- * @param {string} value
- * @param {function()} onBlur
- * @param {function(value)}  onChange
- * @param {function(open)	}  onDropdownVisibleChange
- * @param {function()} onFocus
- * @param {function(value)} onSearch
- * @param {function(value, option)} onSelect
- * @param children
- * @return {JSX.Element}
- * @constructor
- */
+
 
 const AutoCompleteExample = () => {
   const [query, setQuery] = useState();
@@ -102,7 +74,7 @@ const AutoCompleteExample = () => {
         option.value.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1
       }
     >
-      <Input.Search size="large" placeholder="input here" />
+      {/* <Input.Search size="large" placeholder="input here"  /> */}
     </AutoComplete>
   );
 };

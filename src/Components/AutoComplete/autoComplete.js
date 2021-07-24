@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Input, AutoComplete } from "antd";
+import { Input, AutoComplete } from "test-vendor-2";
 
 function getRandomInt(max, min = 0) {
   return Math.floor(Math.random() * (max - min + 1)) + min; // eslint-disable-line no-mixed-operators

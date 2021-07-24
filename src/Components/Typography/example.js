@@ -1,7 +1,5 @@
 import React from 'react'
-import Space from '../Space'
-import Text from '../Typography/Text'
-import Link from '../Typography/Link'
+import {Space, Text, Link} from 'test-vendor-2'
 
 const TypographyExample = () => {
     return (

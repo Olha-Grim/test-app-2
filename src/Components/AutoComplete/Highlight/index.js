@@ -1,11 +1,4 @@
 
-/**
- * Case insensitive highlight which keeps the source casing.
- * @param {string} source text
- * @param {string} target to highlight within the source text
- * @param {Function} callback to define how to highlight the text
- * @returns {Array}
- */
 const defaultHighlight = s => <em>{s}</em>;
 
 // Needed if the target includes ambiguous characters that are valid regex operators.
