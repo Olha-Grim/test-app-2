@@ -6,6 +6,7 @@ const CardExample = () => {
   return (
 
     <Card
+    
       hoverable
       style={{ width: "140px", height: "200px" }}
       cover={

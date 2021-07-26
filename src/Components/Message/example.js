@@ -2,6 +2,7 @@ import React from "react";
 import {message, Button, Space} from "test-vendor-2";
 
 const MessageExample = () => {
+console.log(message.success, 'messagemessage')
   const success = () => {
     message.success("This is a success message");
   };

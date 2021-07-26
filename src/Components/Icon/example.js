@@ -1,5 +1,5 @@
 import React from "react";
-import Icon from "./CustomIcon";
+import { Icon } from "test-vendor-2";
 
 const IconExample = () => {
   const HeartSvg = () => (
@@ -53,9 +53,17 @@ const IconExample = () => {
     </svg>
   );
 
-  const HeartIcon = (props) => <Icon component={HeartSvg} {...props} />;
+  const HeartIcon = (props) => (
+    <div style={{ width: "30px", height: "30px" }}>
+      <Icon component={HeartSvg} {...props} />
+    </div>
+  );
 
-  const PandaIcon = (props) => <Icon component={PandaSvg} {...props} />;
+  const PandaIcon = (props) => (
+    <div style={{ width: "30px", height: "30px" }}>
+      <Icon component={PandaSvg} {...props} />
+    </div>
+  );
   return (
     <div className="custom-icons-list">
       <HeartIcon style={{ color: "hotpink" }} />
@@ -64,4 +72,4 @@ const IconExample = () => {
   );
 };
 
-export  default IconExample
+export default IconExample;

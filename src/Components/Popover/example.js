@@ -8,6 +8,7 @@ const PopoverExample = () => {
       <p>Content</p>
     </div>
   );
+  
   return (
     <div>
       <Popover content={content} title="Title" trigger="hover">

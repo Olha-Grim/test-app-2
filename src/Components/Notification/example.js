@@ -1,9 +1,9 @@
 import React from "react";
-import { Button, Notification } from "test-vendor-2";
+import { Button, notification } from "test-vendor-2";
 
 const NotificationExample = () => {
   const openNotification = () => {
-    Notification.open({
+    notification.open({
       message: "Notification Title",
       description:
         "This is the content of the notification. This is the content of the notification. This is the content of the notification.",

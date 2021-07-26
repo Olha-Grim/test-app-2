@@ -61,6 +61,7 @@ import SpinExample from "./Components/Spin/example";
 import Apps from "./Components/Screens/Apps";
 import Settings from "./Components/Screens/Settings";
 import AccountChange from "./Components/Screens/AccountChange";
+import IconExample from "./Components/Icon/example";
 // import PSError from "./Components/Screens/PSError";
 
 
@@ -100,7 +101,7 @@ function App() {
         <h2>Alert</h2>
         <AlertExample />
         <h2>Icon</h2>
-        {/* <IconExample /> */}
+        <IconExample />
         <h2>Typography</h2>
         <TypographyExample />
         <h2>Divider</h2>
